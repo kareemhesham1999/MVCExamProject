@@ -158,7 +158,7 @@ INSERT [dbo].[__EFMigrationsHistory] ([MigrationId], [ProductVersion]) VALUES (N
 GO
 SET IDENTITY_INSERT [dbo].[ContactUsMSGS] ON 
 GO
-INSERT [dbo].[ContactUsMSGS] ([Id], [Message], [name], [Email], [CreatedAt]) VALUES (1, N'stringtest1stringtest1stringtest1stringtest1stringtest1', N'SampleName1', N'user@example.com', CAST(N'2023-07-16T21:32:42.2710000' AS DateTime2))
+INSERT [dbo].[ContactUsMSGS] ([Id], [Message], [name], [Email], [CreatedAt]) VALUES (1, N'Test Message1', N'SampleName1', N'user@example.com', CAST(N'2023-07-16T21:32:42.2710000' AS DateTime2))
 GO
 SET IDENTITY_INSERT [dbo].[ContactUsMSGS] OFF
 GO
